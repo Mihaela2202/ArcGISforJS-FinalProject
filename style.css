@@ -1,0 +1,22 @@
+html,
+body,
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#layerList-btn, #basemap-btn {
+    padding: 6px;
+    cursor: pointer;
+}
+
+div.esri-component.esri-layer-list.esri-widget.esri-widget--panel {
+    display: none;
+}
+
+.esri-basemap-gallery {
+    position: absolute;
+    top: 40px;
+    display: none;
+}
